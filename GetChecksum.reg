@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\GetChecksum]
+
+"MUIVerb"="GetChecksum"
+
+"SubCommands"="Checksum-8;Checksum-16;Checksum-32"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-8]
+
+@="Checksum-8"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-8\command]
+
+@="\"C:\\"Program Files"\\checksum\\GetChecksum.exe\" \"%1\" \"8\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-16]
+
+@="Checksum-16"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-16\command]
+
+@="\"C:\\"Program Files"\\checksum\\GetChecksum.exe\" \"%1\" \"16\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-32]
+
+@="Checksum-32"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Checksum-32\command]
+
+@="\"C:\\"Program Files"\\checksum\\GetChecksum.exe\" \"%1\" \"32\""
